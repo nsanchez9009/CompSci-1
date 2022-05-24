@@ -1,0 +1,79 @@
+Phase 1:
+ - Possible winners are put into G groups. Each group going through this process.
+ - Members of a group will be numbered from 1 to p (amount of people).
+ - They will be arranged in a circle. 1, 2, 3...p, 1 and so on.
+ - Each group has its own skip number, s, and threshold number, t, where t < p.
+ - To eliminate someone from the group, you start at person 1 and skip over s people. Then the person following this person is eliminated.
+ - Because the line is circular, once you pass the highest numbered person in the line you will continue with the lowest.
+ - Continue eliminating people in this fashion until there are precisely t people left.
+
+Phase 2:
+ - The winner of the lottery is the smallest numbered person left from all the groups.
+ - If there are multiple people with the same lowest number, then the person from the lowest group number is the winner.
+
+The problem:
+ - Determine the winner of the lottery (group number and person number).
+ - Print a log for each group of which people get eliminated, in the order they are eliminated.
+
+Input: 
+ - The first line will contain a single positive int n, n <= 25, representing the number of input cases.
+
+ - The first line of each input case will contain a single positive int g, g <= 10, representing the number of groups.
+
+ - The following g lines will each contain information about each group.
+    The ith line will contain information about group number i, 1 <= i <= g.
+
+ - These lines will each contain 3 ints separated by spaces.
+    p (2 <= p <= 10^5): the number of people.
+    s (0 <= s <= p): the skip number.
+    t (1 <= t <= p): the threshold number.
+1
+5
+10 2 2
+8 1 1
+7 2 3
+5 1 3
+9 1 4
+
+ - The sum of s(p - t) over all the groups will be <= 10^7. This means you wont have to move forwards from node to node more than 10^7 times in phase 1. (idk)
+
+Output:
+ - For each group, print out the following header on a line by itself: "Group #x:"
+ - x is the 1 based number of the group (i + 1).
+ - Following this will be the people eliminated, one per line, in the order they are eliminated.
+ - This will all be printed in order by group number without any blank lines separating each group.
+ - Following this will be a line in the format: "Lottery winner is person k from group g."
+ - k is the number of the person (1 based) and g is the group number (1 based).
+
+Group #1:
+3
+6
+9
+2
+7
+1
+8
+5
+Group #2:
+2
+4
+6
+8
+3
+7
+5
+Group #3:
+3
+6
+2
+7
+Group# 4:
+2
+4
+Group #5:
+2
+4
+6
+8
+1
+Lottery winner is person 1 from group 2.

@@ -1,0 +1,20 @@
+
+hard logic, simple. arrays.
+n=5 is expected
+n=6  under a second is 90%
+n=8 is full credit
+Use dance recital code
+Edit permutation algorithm so it doesn't try all permutations (the same ones)
+0123 0132 <-- the same according to the problem
+to find square root with a binary search, but don't. just use sqrt with math.h
+
+go to website on class website to help visualize algorithms. algovision knights.
+
+linked lists:
+each node is a struct that contains int data and a pointer to the next node
+malloc one node at a time
+place node in an existing list, with a function.
+create node function.  
+insert front function.
+node *list = null;
+this is important because null tells you the end of the list.

@@ -1,0 +1,53 @@
+Test case 1 (same word):
+24
+1 mat
+1 mat
+1 mat
+1 mat
+1 mat
+1 mat
+1 mat
+1 mat
+1 mat
+1 mat
+2 mat
+1 mat
+1 mat
+1 mat
+1 mat
+1 mat
+1 mat
+1 mat
+1 mat
+1 mat
+1 mat
+1 mat
+1 mat
+1 mat
+
+Test case 2 (all queries):
+24
+2 apple
+2 apple
+2 apple
+2 apple
+2 apple
+2 apple
+2 apple
+2 apple
+2 apple
+2 apple
+2 apple
+2 apple
+2 apple
+2 apple
+2 apple
+2 apple
+2 apple
+2 apple
+2 apple
+2 apple
+2 apple
+2 apple
+2 apple
+2 apple

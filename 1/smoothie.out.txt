@@ -1,0 +1,51 @@
+Test Case 1:
+Store #1:
+cheese 20.000000
+Store #2:
+bananas 7.500000
+protein 7.500000
+blueberries 12.500000
+honey 4.166667
+cheese 38.333333
+
+Test Case 2:
+Store #1:
+chicken 88.034188
+spinach 5.555556
+avacado 5.555556
+pineapple 23.076923
+papaya 27.777778
+Store #2:
+chicken 0.166667
+green_peppers 0.333333
+spinach 0.500000
+tomatoes 0.666667
+avacado 0.833333
+watermelon 1.000000
+cantelope 1.166667
+pineapple 1.333333
+passonfruit 1.500000
+gooseberries 1.666667
+papaya 1.833333
+coconut 2.000000
+Store #3:
+chicken 11.538462
+green_peppers 1.785714
+spinach 2.976190
+avacado 1.785714
+watermelon 25.000000
+cantelope 16.666667
+pineapple 8.818681
+passonfruit 4.761905
+gooseberries 10.119048
+papaya 1.785714
+coconut 4.761905
+
+Test Case 3:
+Store #1:
+ice 43.333333
+water 116.666667
+Store #2:
+ice 200.000000
+Store #3:
+water 2961.000000
